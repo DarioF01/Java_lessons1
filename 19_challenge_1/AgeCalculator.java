@@ -1,5 +1,9 @@
 public class AgeCalculator{
-	public static double calculate(String ac){
-		return null;
+	public static int calculate(String ac){
+
+		int age = Integer.parseInt(ac);
+		int results = 2024-age;
+
+		return results;
 	}
 }

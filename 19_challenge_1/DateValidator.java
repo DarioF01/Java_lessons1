@@ -1,6 +1,11 @@
 public class DateValidator{
 	public static boolean isValid(String vld){
-		return null;
+		boolean date = true;
+		if(date){
+			return date;
+		}else{
+			return false;
+		}
 	}
 
 }
