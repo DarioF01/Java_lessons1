@@ -3,8 +3,11 @@ public class DateValidator{
 		boolean date = true;
 		if(date){
 			return date;
+			System.out.println("Age is valid");
+
 		}else{
-			return false;
+			return ;
+			System.out.println("Age is not valid");
 		}
 	}
 
